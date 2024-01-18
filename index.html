@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body class="font-sans bg-gray-100">
+
+  <!-- Navigation -->
+  <div class="bg-gray-800 text-white p-4">
+    <nav class="flex items-center justify-between">
+      <div class="flex items-center">
+        <input type="checkbox" id="check">
+        <label for="check" class="cursor-pointer">
+          <!-- Your SVG here -->
+        </label>
+        <div class="ml-4">
+          <h1 class="text-2xl font-bold">Logo</h1>
+        </div>
+      </div>
+      <ul class="flex items-center space-x-4">
+        <li><a class="text-white" href="#">Platform</a></li>
+        <li><a class="text-white" href="#">Blog</a></li>
+        <li><a class="text-white" href="#">Pricing</a></li>
+        <li><a class="text-white" href="#">Login</a></li>
+        <li><a class="text-white" href="#">Start Trial</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container mx-auto my-8 p-8 bg-white rounded-lg shadow-md">
+
+    <div class="paragraph">
+      <h1 class="text-4xl font-bold">
+        Welcome to our Pricing Page
+      </h1>
+    </div>
+
+    <div class="mt-8">
+      <h2 class="text-2xl font-bold mb-4">Choose Your Plan</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Starter Plan -->
+        <div class="pricecol bg-gray-100 p-6 rounded-lg">
+          <p class="text-lg font-semibold text-gray-700">Starter</p>
+          <h3 class="text-3xl font-bold text-indigo-600">₹600 <span class="text-gray-600">/ Month</span></h3>
+          <ul class="mt-4">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <li>Feature 4</li>
+            <li>Feature 5</li>
+            <li>Feature 6</li>
+          </ul>
+          <button class="mt-6 bg-indigo-600 text-white px-4 py-2 rounded-full">Add to Cart</button>
+        </div>
+
+        <!-- Advanced Plan -->
+        <div class="pricecol bg-gray-100 p-6 rounded-lg">
+          <p class="text-lg font-semibold text-gray-700">Advanced</p>
+          <h3 class="text-3xl font-bold text-indigo-600">₹1000 <span class="text-gray-600">/ Month</span></h3>
+          <ul class="mt-4">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <li>Feature 4</li>
+            <li>Feature 5</li>
+            <li>Feature 6</li>
+          </ul>
+          <button class="mt-6 bg-indigo-600 text-white px-4 py-2 rounded-full">Add to Cart</button>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="pricecol bg-gray-100 p-6 rounded-lg">
+          <p class="text-lg font-semibold text-gray-700">Premium</p>
+          <h3 class="text-3xl font-bold text-indigo-600">₹1200 <span class="text-gray-600">/ Month</span></h3>
+          <ul class="mt-4">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <li>Feature 4</li>
+            <li>Feature 5</li>
+            <li>Feature 6</li>
+          </ul>
+          <button class="mt-6 bg-indigo-600 text-white px-4 py-2 rounded-full">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer bg-gray-800 text-white p-8">
+    <div class="bottom grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Resources -->
+      <div class="platform">
+        <h4 class="text-lg font-semibold">RESOURCES</h4>
+        <ul class="mt-4">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Learning Center</a></li>
+          <li><a href="#">Platform 1</a></li>
+          <li><a href="#">Platform 2</a></li>
+        </ul>
+      </div>
+
+      <!-- Integrations -->
+      <div class="platform">
+        <h4 class="text-lg font-semibold">INTEGRATIONS</h4>
+        <ul class="mt-4">
+          <li><a href="#">Integration 1</a></li>
+          <li><a href="#">Integration 2</a></li>
+          <li><a href="#">Integration 3</a></li>
+          <li><a href="#">Integration 4</a></li>
+          <li><a href="#">Integration 5</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div class="platform">
+        <h4 class="text-lg font-semibold">COMPANY</h4>
+        <ul class="mt-4">
+          <li><a href="#">Company 1</a></li>
+          <li><a href="#">Company 2</a></li>
+          <li><a href="#">Company 3</a></li>
+          <li><a href="#">Company 4</a></li>
+          <li><a href="#">Company 5</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copy mt-8">
+      <h5 class="text-sm">&copy; All rights reserved</h5>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

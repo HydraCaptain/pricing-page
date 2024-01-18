@@ -21,7 +21,10 @@ body {
     height: 100px;
     width: 100%;
 
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
 }
 .logo{
     color: #fff;
@@ -48,6 +51,7 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    text-decoration: none;
 
 }
 a:hover{
@@ -166,6 +170,7 @@ a:hover{
 .pricecol ul li{
     margin: 15px 0;
     list-style: none;
+    font-size: 18px;
 
 }
 .pricecol ul li{
@@ -197,43 +202,5 @@ a:hover{
     color: rgb(211, 247, 7);
     font-size: 20px;
     transition: 1s;
-
-}
-.foot{
-    @font-face {
-        font-family: PP mori;
-        src: url(./ppmori.ttf);
-    }
-    font-style: italic;
-    margin-left: 35vw;
-}
-
-.footer{
-    background-color: #616060;
-}
-
-.bottom{
-    padding: 0 5%;
-    margin: auto;
-    display: grid;
-    text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 25px;
-
-}
-.platform h4{
-    color: #fff;
-
-}
-.platform ul li{
-    list-style: none;
-}
-.platform ul li a{
-    color: #fff;
-}
-
-.copy{
-    padding: 15px 0;
-    text-align: center;
 
 }
